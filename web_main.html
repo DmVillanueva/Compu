@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+          <html>
+            <head>
+		<link rel="shortcut icon" href="http://virgin.i.lithium.com/html/assets/favicon.ico" />
+              <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+              <title>numeros aleatorios Diego.M.Villanueva</title>
+            </head>
+            <body  style="                background-color:#162B6A;">
+              <h1  style="text-align: center;"><font  face="arial"  color="white"
+
+                   size="20"> Base de datos de números aleatorios</font></h1>
+              <p><br>
+		<font font  face="arial"  color="white"> 
+		<br style="text-align: center;"> media: {{avg}} leida de {{db}}
+		<br> último dato leído: {{last_r}}
+              </p>
+              <font  color="white"><br>
+              </font>
+
+              <form  method="POST"  action="." >
+		 <font  color="white">
+                  Valor máximo:&nbsp; 
+			<input type="text" value={{max_val}} name="ceil"><br>
+                  <font  color="white"> Valor mínimo: 
+			<input type="text" value={{min_val}} name="floor"><br>
+	<select name="fuente">    
+       <option value="Beebotte" selected="{{selected_bbt}}">Beebotte</option>
+       <option value="Mongodb" selected="{{selected_mongo}}">Mongodb</option>
+   </select>
+                    <input  name="form"  value="Send"  type="submit">
+          <br>
+          <br>
+          <br>
+          <br>
+          <font  color="white">        
+            <p> </p>
+            <p> </p>
+            <p  style="text-align: center;"><font  color="white"><br>
+              </font></p>
+		
+            <p  style="text-align: center;"><br>
+		<a href="https://beebotte.com/dash/c9f10ec0-d539-11e7-bfef-6f68fef5ca14" style="color:#FFFFFF;" target="_blank">Gráfica desde Beebotte</a>
+		{{table}}
+            </p>
+            <font  color="white"> </font> </font> </font> </font></form>
+
+
+
+
+ 
+</body></html>
